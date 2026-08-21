@@ -26,6 +26,11 @@
   padding: 0;
 }
 
+.office-underline {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 html {
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--header-h) + 8px);
