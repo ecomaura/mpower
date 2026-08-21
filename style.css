@@ -390,7 +390,27 @@ a {
 .hamburger[aria-expanded="true"] span:nth-child(3) {
   transform: translateY(-7px) rotate(-45deg);
 }
+/* Desktop: show Request a Quote, hide the mobile logo */
+.header-cta-logo {
+  display: none;
+}
 
+.header-cta-quote {
+  display: inline-flex; /* or whatever display your .btn already uses */
+}
+
+/* Mobile: hide Request a Quote, show logo instead */
+@media (max-width: 768px) {
+  .header-cta-quote {
+    display: none;
+  }
+
+  .header-cta-logo {
+    display: block;
+    height: 34px;
+    width: auto;
+  }
+}
 /* Mobile slide-down menu */
 .mobile-nav {
   position: fixed;
