@@ -30,7 +30,21 @@
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+.header-cta-text {
+  display: none;
+  font-family: "EB Garamond", "Garamond", serif;
+  color: #d4af37; /* gold/yellow — adjust to match your existing btn--gold color */
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
 
+@media (min-width: 769px) {
+  .header-cta-text {
+    display: inline-block;
+  }
+}
 html {
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--header-h) + 8px);
