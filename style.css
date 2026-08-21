@@ -35,7 +35,11 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--header-h) + 8px);
 }
-
+.footer-office .office-underline,
+.fb-offices .office-underline {
+  text-decoration: underline !important;
+  text-underline-offset: 3px;
+}
 body {
   font-family: var(--f-body);
   color: var(--ink);
