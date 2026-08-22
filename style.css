@@ -33,11 +33,13 @@
 .header-cta-text {
   display: none;
   font-family: "EB Garamond", "Garamond", serif;
-  color: #d4af37; /* gold/yellow — adjust to match your existing btn--gold color */
+  color: #d4af37;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.3px;
   white-space: nowrap;
+  background: #121d51;
+  padding: 8px 14px;
 }
 
 @media (min-width: 769px) {
