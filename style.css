@@ -41,8 +41,8 @@
 }
 
 @media (min-width: 769px) {
-  .logo {
-    height: 10px;
+  .brand img.logo {
+    height: 44px;
     width: auto;
   }
 }
