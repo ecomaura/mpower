@@ -41,6 +41,13 @@
 }
 
 @media (min-width: 769px) {
+  .logo {
+    height: 40px;
+    width: auto;
+  }
+}
+
+@media (min-width: 769px) {
   .header-cta-text {
     display: inline-block;
   }
